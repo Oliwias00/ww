@@ -1,0 +1,3 @@
+gry = {"SC2":"Star Carft 2":"HS":"Heartstone"}
+print(len(gry))
+print(gry.__len__)
