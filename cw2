@@ -1,0 +1,36 @@
+# a = input()
+# print(f"wprowadziles: {a}")
+# print(type(a))
+# int("100")
+# <class 'str'>
+liczba = 100
+if liczba < 100 and liczba > 0:
+    print("Liczba mniejsza niz 100")
+elif liczba > 0:
+    print("Liczba wieksza niz 0")
+else:
+    print("")
+
+if 0 < liczba < 100:
+    print("Liczba mniejsza niz 100")
+
+# petla for
+imie = "Amanda"
+#foreach
+for litera in imie:
+    print(litera, end='') #end decyduje co jest wyswietlane po kazdej literze
+print()
+
+#for i range
+for liczba in range(1, 11): #od jednego do dziesieciu
+    print(liczba)
+for liczba in range(1, 11, 2): #od jednego do dziesieciu co 2
+    print(liczba)
+#range to generator
+print(range(1, 11, 2))
+print(list(range(1, 11, 2)))
+
+print(list(range(11, 1, -2)))#trzeba odwrocic sekwencje
+#slice
+print(imie[0:2:1])#ambiwalent funkcji range
+print(imie[::2])#jesli nie ma wartosci jest default
