@@ -1,0 +1,71 @@
+print("Witaj świecie!")
+a = 'Ala'
+b = 'Marek'
+c = 'Kasia'
+print(a) #alt shift strzalka
+print(b)
+print(c)
+
+#komentarz ctrl /
+# block kodu
+# for element in kolekcja:
+#     for element2 in kolekcja:
+
+dlugi_takst= """Ala ma kota
+a kot jest glodny."""
+print(dlugi_takst)
+
+# def funkcja():
+#     """ dokumentacja """
+
+# print(type(a))
+# print(a + b)
+# print(2 + 3)
+# print(2 - 3)
+# print(2 * 3)
+# print(2 / 3)
+# print(2 // 3)
+# print(2 ** 3)
+# print(2 % 3)
+# print(3.34 + 34.34)
+
+def pow(liczba, potega):
+    pass
+
+import math as m 
+
+from math import pi
+
+print("Ala ma " + str(4) + " lata")
+# str(1)
+# int(1)
+# float(1)
+print("Ala ma {0} lata".format(4))
+# print("Ala ma {} lata".format(4, 4, "Ala", 3.14))
+print(f"Ala ma {wiek} lata")
+
+imie = 'ala'
+# imie.count('a')
+# print(imie.upper())
+# print(dir(imie))
+# imie = imie.upper()
+# print(imie[0])
+
+#listy
+lista = [1, 2, 3, 4, 'Ala', imie]
+lista2 = list()#lista = []
+lista2.append(1)
+print (lista)
+lista[0] = 5 #mozna podmieniac dla list
+lista3 = lista + lista2
+
+#slownik
+slownik = {"imie": "Oliwia", "wzrost": 180}
+print(slownik["imie"]) #odwolanie poprzez klucz
+
+print(slownk.keys())
+print(slownk.values())
+print(slownk.items())
+
+
+
