@@ -1,0 +1,45 @@
+#zad1
+tekst = input("Napisz zdanie:")
+tekst = str(tekst)
+print()
+print("Ilosc spacji:")
+print tekst.count(" ")
+#zad2
+#zad3 done
+#zad4
+e = input("Podaj liczbe:")
+e = int(e)
+print(fabs(e))
+#zad5
+a = input ("Podaj pierwsza liczbe")
+a = int(a)
+b = input ("Podaj druga liczbe")
+b = int(b)
+c = input ("Podaj trzecia liczbe")
+c = int(c)
+
+if 0 < a <= 10 and a > b or b > c:
+    print("A jest w przedziale (0,10> oraz spelnia warunek a>b lub b>c")
+else:
+    print("A nie spełnia warunku (0,10>")
+
+#zad 6
+for liczba in range(5, 21, 5):
+    print(liczba)
+
+#zad7
+d = input("Podaj liczbe ktora chcesz podniesc do kwadratu")
+d = int(d)
+print(d * d) #sqrt tez moze byc
+
+#zad8
+
+#zad9
+g = input("Podaj liczbe")
+
+#zad10
+#zad11
+#zad12
+#zad13
+#zad14
+#zad15
